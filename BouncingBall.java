@@ -6,8 +6,7 @@ public class BouncingBall
 
  public static void main(String[] args) 
 
- { // Simulate the movement of a bouncing ball.
-
+ { 
  StdDraw.setXscale(-1.0, 1.0); 
 
  StdDraw.setYscale(-1.0, 1.0); 
@@ -20,7 +19,7 @@ public class BouncingBall
 
  while(true) 
 
- { // Update ball position and draw it there.
+ { 
 
  if (Math.abs(rx + vx) + radius > 1.0) vx = -vx;
 

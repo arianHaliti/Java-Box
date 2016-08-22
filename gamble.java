@@ -1,6 +1,6 @@
 public class gamble{
 	public static void main(String[]args){
-		int stake,goal,T,bets,wins;
+		int stake,goal,bets,wins;
 		stake =Integer.parseInt(args[0]);
 		goal =Integer.parseInt(args[1]);
 		T = Integer.parseInt(args[2]);
